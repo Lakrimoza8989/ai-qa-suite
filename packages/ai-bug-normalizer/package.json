@@ -1,0 +1,7 @@
+{
+  "name": "ai-bug-normalizer",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "ai-bug-normalizer": "bin/cli.ts" }
+}

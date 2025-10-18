@@ -1,0 +1,3 @@
+﻿2025-10-10 12:00:01 ERROR checkout.js:187 TypeError: Cannot read properties of null (reading 'id')
+2025-10-10 12:00:02 WARN  api/cart PUT 500 timeout after 3001ms
+2025-10-10 12:00:05 ERROR auth: invalid csrf token

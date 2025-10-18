@@ -1,0 +1,7 @@
+{
+  "name": "ai-log-analyzer",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "ai-log-analyzer": "bin/cli.ts" }
+}

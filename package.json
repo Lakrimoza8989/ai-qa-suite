@@ -1,0 +1,31 @@
+{
+  "name": "ai-qa-suite",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "https://github.com/Lakrimoza8989/ai-qa-suite",
+  "author": "Aleksei Sosin",
+  "keywords": ["qa", "testing", "ai", "cli"],
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "lint": "eslint . --ext .ts || echo 'eslint not configured yet'",
+    "test": "node -e \"console.log('No tests yet')\"",
+    "testcases": "tsx packages/ai-testcase-gen/bin/cli.ts -i examples/requirements.md -o out/testcases.md",
+    "bug": "tsx packages/ai-bug-normalizer/bin/cli.ts -i examples/bug_raw.txt -o out/bug_normalized.md",
+    "logs": "tsx packages/ai-log-analyzer/bin/cli.ts -i examples/log.txt -o out/log_report.md"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "openai": "^4.56.0",
+    "undici": "^6.19.8"
+  }
+}

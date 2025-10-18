@@ -1,0 +1,7 @@
+{
+  "name": "ai-testcase-gen",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "ai-testcase-gen": "bin/cli.ts" }
+}
