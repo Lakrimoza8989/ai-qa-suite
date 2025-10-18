@@ -4,10 +4,10 @@ Smart tools that accelerate QA workflows using AI.
 ---
 
 ## Overview
-**AI-QA Suite** — это набор CLI-инструментов, которые автоматизируют рутинные задачи тестировщика:
-- **AI Test Case Generator** — создаёт тест-кейсы из требований.
-- **AI Bug Normalizer** — структурирует сырые баг-репорты в формат Jira.
-- **AI Log Analyzer** — анализирует логи и ищет возможные причины ошибок.
+**AI-QA Suite** is a set of CLI tools that automate routine QA tasks:
+- **AI Test Case Generator** — generates structured test cases from requirements.
+- **AI Bug Normalizer** — converts raw bug reports into a clean Jira-like format.
+- **AI Log Analyzer** — analyzes logs and suggests possible root causes.
 
 ---
 
