@@ -1,8 +1,0 @@
-Rewrite the RAW BUG REPORT into this template:
-- Title
-- Environment
-- Steps to Reproduce (numbered)
-- Expected Result
-- Actual Result
-- Notes / Attachments
-Be professional, concise, no emojis.
