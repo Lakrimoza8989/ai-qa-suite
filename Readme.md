@@ -1,6 +1,8 @@
 # AI-QA Suite 
 Smart tools that accelerate QA workflows using AI.
 
+### Version 0.1.0 — Public Demo
+
 ---
 
 ## Overview
@@ -66,14 +68,35 @@ Output: out/log_report.md
 
 ---
 
+---
+
+## Real Run (local execution)
+
+These screenshots show real AI-QA Suite modules working locally with OpenAI API connected.
+
+| Input (requirements, bug, log) | Output (generated files) |
+|--------------------------------|---------------------------|
+| ![Input - Requirements](docs/img/In_req.png) | ![Output - Test Cases](docs/img/out_Req.png) |
+| ![Input - Bug](docs/img/In_bug.png) | ![Output - Bug Normalized](docs/img/out_Bug.png) |
+| ![Input - Log](docs/img/In_log.png) | ![Output - Log Report](docs/img/out_Log.png) |
+
+---
+
+
+
+> ⚙️ Version 0.1.0 — Public Demo  
+> Full API-connected version available on request.
+
+
 
 ## CLI 
 ![CLI Run Screenshot](docs/img/cli_Run.png)
 
+---
 
-
-> Internals and prompts are redacted in the public demo.  
-> Full version available on request.
+> Version 0.1.0 — Public Demo  
+> AI-QA Suite runs in demo mode (no API key).
+> Full version available on request — includes live OpenAI integration.
 
 
 
