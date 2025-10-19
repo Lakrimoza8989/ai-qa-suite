@@ -72,7 +72,7 @@ Output: out/log_report.md
 
 
 
-> **Note:** Internals and prompts are redacted in the public demo.  
+> Internals and prompts are redacted in the public demo.  
 > Full version available on request.
 
 
